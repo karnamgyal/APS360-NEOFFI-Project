@@ -192,3 +192,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+./MATLAB/data_processing/output.zip
+./MATLAB/data_processing/output/
+./MATLAB/data_processing/fconn_rest_hcp_yeo17network_aseg_mc.mat
+./MATLAB/sample_plot/fconn_rest_hcp_yeo17network_aseg_mc.mat
+./MATLAB/sample_plot/fconn_rest_hcp_yeo17network_aseg_mc_1.mat
