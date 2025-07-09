@@ -196,7 +196,9 @@ cython_debug/
 
 MATLAB/data_processing/output.zip
 MATLAB/data_processing/output/
+MATLAB/data_processing/output_no_id/
 MATLAB/data_processing/fconn_rest_hcp_yeo17network_aseg_mc.mat
 MATLAB/data_processing/reconstructed_data.mat
+MATLAB/data_processing/reconstructed_data_no_id.mat
 MATLAB/sample_plot/fconn_rest_hcp_yeo17network_aseg_mc.mat
 MATLAB/sample_plot/fconn_rest_hcp_yeo17network_aseg_mc_1.mat
