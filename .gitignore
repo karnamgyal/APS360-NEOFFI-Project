@@ -1,5 +1,6 @@
 # Ignore venv
 venv_gpu/
+venv311/
 
 # Ignore splits
 splits/
