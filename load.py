@@ -12,8 +12,10 @@ from torch.utils.data import Dataset
 # ----------------------------
 # Config
 # ----------------------------
-WEIGHTS = r"C:/Users/namgy/OneDrive/Desktop/APS360-NEOFFI-Project/model_weights.pth"
-TEST_ROOT = r"C:/Users/namgy/OneDrive/Desktop/APS360-NEOFFI-Project/data/unseen"
+
+ROOT = Path(__file__).parent
+WEIGHTS = ROOT / "model_weights.pth"
+TEST_ROOT = ROOT / "data" / "unseen"
 TARGET_NETWORK = 6
 trait_columns = ['NEOFAC_A', 'NEOFAC_O', 'NEOFAC_C', 'NEOFAC_N', 'NEOFAC_E']
 
