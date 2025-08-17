@@ -13,9 +13,8 @@ from torch.utils.data import Dataset
 # Config
 # ----------------------------
 
-ROOT = Path(__file__).parent
-WEIGHTS = ROOT / "model_weights.pth"
-TEST_ROOT = ROOT / "data" / "unseen"
+WEIGHTS = "model_weights.pth"
+TEST_ROOT = "data\unseen"
 TARGET_NETWORK = 6
 trait_columns = ['NEOFAC_A', 'NEOFAC_O', 'NEOFAC_C', 'NEOFAC_N', 'NEOFAC_E']
 
