@@ -12,14 +12,16 @@ from torch.utils.data import Dataset
 # ----------------------------
 # Config
 # ----------------------------
+ROOT = Path(__file__).parent
 
-WEIGHTS = "model_weights.pth"
-TEST_ROOT = "data/unseen"
+WEIGHTS = ROOT / "model_weights.pth"
+TEST_ROOT = ROOT / "data" / "unseen"
 TARGET_NETWORK = 6
 trait_columns = ['NEOFAC_A', 'NEOFAC_O', 'NEOFAC_C', 'NEOFAC_N', 'NEOFAC_E']
 
-LABELS_CSV = Path(r"C:/Users/namgy/OneDrive/Desktop/APS360-NEOFFI-Project/data/unrestricted_5_22_56_15.csv")
-TEST85_NUM = Path(r"C:/Users/namgy/OneDrive/Desktop/APS360-NEOFFI-Project/data/unseen/test_ids_85_numeric.txt")
+LABELS_CSV = ROOT / "data" / "unrestricted_5_22_56_15.csv"
+TEST85_NUM = ROOT / "data" / "unseen" / "test_ids_85_numeric.txt"
+
 
 # ----------------------------
 # Model import
