@@ -258,17 +258,7 @@ def main():
     
     # Footer
     st.markdown("---")
-    st.markdown("*APS360 NEOFFI Project - Model Predictions Dashboard*")
-    
-    # Debug info in sidebar
-    with st.sidebar:
-        st.markdown("---")
-        st.subheader("Debug Info")
-        st.write(f"Available subjects: {len(subjects)}")
-        if subjects:
-            st.write("Subject IDs:")
-            for s in subjects:
-                st.write(f"- {s['id']}")
+    #st.markdown("*APS360 NEOFFI Project - Model Predictions Dashboard*")
 
 if __name__ == "__main__":
     main()
